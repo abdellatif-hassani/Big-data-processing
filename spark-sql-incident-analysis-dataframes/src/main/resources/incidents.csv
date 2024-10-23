@@ -1,0 +1,31 @@
+Id,titre,description,service,date
+1,Server Down,Production server not responding,IT,2023-01-15
+2,Network Latency,High latency in Building A network,Network,2023-01-20
+3,Database Timeout,Database connection timeout during peak hours,IT,2023-02-05
+4,Power Outage,Unexpected power failure in sector 3,Facilities,2023-02-15
+5,Security Breach,Unauthorized access attempt detected,Security,2023-03-01
+6,HVAC Malfunction,Air conditioning system failure in office area,Facilities,2023-03-10
+7,Software Bug,Critical bug in production application,Development,2023-03-15
+8,Printer Error,Main printer system malfunction,IT,2023-04-02
+9,Network Outage,Complete network failure in Building B,Network,2023-04-15
+10,Data Corruption,Database integrity issues detected,IT,2023-05-01
+11,Fire Alarm,False fire alarm activation,Security,2022-01-10
+12,Email Service Down,Company-wide email service disruption,IT,2022-02-15
+13,Building Access,Card reader system malfunction,Security,2022-03-20
+14,Server Overload,High CPU usage on main servers,IT,2022-04-05
+15,Network Security,Suspicious network traffic detected,Network,2022-04-25
+16,Database Backup Failure,Weekly backup process failed,IT,2022-05-15
+17,Power Surge,Electrical surge in server room,Facilities,2022-06-10
+18,Code Deployment,Failed production deployment,Development,2022-07-01
+19,Security Update,Critical security patch installation failed,IT,2022-07-15
+20,Air Quality,Poor air quality in conference rooms,Facilities,2022-08-20
+21,Network Cable Damage,Physical damage to main network cable,Network,2022-09-05
+22,Server Maintenance,Unplanned server maintenance required,IT,2022-09-25
+23,Water Leak,Water leak near server room,Facilities,2022-10-10
+24,Authentication Service,SSO service interruption,Security,2022-11-15
+25,Development Environment,Development environment down,Development,2022-12-01
+26,Backup Power,UPS system failure,Facilities,2023-05-20
+27,Storage Full,Storage system capacity reached,IT,2023-06-05
+28,API Service,External API integration failure,Development,2023-06-15
+29,Camera System,Security camera system offline,Security,2023-06-25
+30,Load Balancer,Load balancer configuration issue,Network,2023-07-01
