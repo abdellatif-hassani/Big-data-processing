@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    function:
+      definition: weatherDataProcessor
+    stream:
+      bindings:
+        weatherDataProcessor-in-0:
+          destination: weather-data
+          group: weather-processing-group
+        weatherDataProcessor-out-0:
+          destination: station-averages
+      kafka:
+        binder:
+          brokers: localhost:9092
+
+logging:
+  level:
+    org.springframework.cloud.stream: DEBUG
+    org.apache.kafka.streams: DEBUG

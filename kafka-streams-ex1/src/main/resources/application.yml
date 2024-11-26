@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    function:
+      definition: processMessage
+    stream:
+      bindings:
+        processMessage-in-0:
+          destination: input-topic
+          group: message-processing-group
+        processMessage-out-0:
+          destination: output-topic
+      kafka:
+        binder:
+          brokers: localhost:9092
+
+logging:
+  level:
+    org.springframework.cloud.stream: DEBUG
