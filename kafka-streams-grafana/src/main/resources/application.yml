@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    function:
+      definition: fraudDetectionProcessor;fraudStorageProcessor
+    stream:
+      bindings:
+        fraudDetectionProcessor-in-0:
+          destination: transactions-input
+          group: fraud-detection-group
+        fraudDetectionProcessor-out-0:
+          destination: fraud-alerts
+        fraudStorageProcessor-in-0:
+          destination: fraud-alerts
+          group: fraud-storage-group
+      kafka:
+        binder:
+          brokers: localhost:9092
+
+# Logging configuration
+logging:
+  level:
+    org.springframework.cloud.stream: DEBUG
+    org.apache.kafka.streams: DEBUG
